@@ -1,77 +1,95 @@
 import React from "react";
-import { StyledHome } from "../components/Home.Styled";
-import TypeWriterEffect from "react-typewriter-effect";
 import Typewriter from "../components/Typewriter";
 
-const Home = () => {
-  const stxStyle = (color) => {
-    return {
-      fontFamily: "IBM Plex Mono",
-      display: "flex",
-      color: color,
-      // fontSize: "1.75rem",
-    };
-  };
+import { StyledHome } from "../components/styled/styled_pages/Home.Styled";
+import { StyledCodeContainer } from "../components/styled/Containers/CodeContainer.Styled";
+import { StyledCodeLine } from "../components/styled/Containers/CodeLineContainer.Styled";
+import { StyledSkills } from "../components/styled/Skills.Styled";
 
+const Home = () => {
   const stxColors = {
     purple: "#AD78DD",
     lightBlue: "#58AFEF",
     darkBlue: "#528BFF",
     yellow: "#E6B424",
-    lightYellow: "#CEB06C",
+    softYellow: "#E5C07B",
+    gold: "#CEB06C",
+    orange: "#D38843",
+    green: "#14A76C",
   };
+
   return (
     <StyledHome>
-      <div className="container-line">
-        <div className="container-stx">
-          <Typewriter
-            txtColor={stxColors.purple}
-            startDelay={100}
-            txt="const"
-          />
-        </div>
-        <div className="container-stx">
-          <Typewriter
-            txtColor={stxColors.lightBlue}
-            startDelay={1000}
-            txt="Jake ="
-          />
-        </div>
-        <div className="container-stx">
-          <Typewriter txtColor={stxColors.yellow} startDelay={2400} txt="()" />
-        </div>
-        <div className="">
-          <Typewriter txtColor={stxColors.purple} startDelay={3000} txt="=>" />
-        </div>
+      <StyledCodeContainer>
+        <StyledCodeLine>
+          <div className="container-stx">
+            <Typewriter
+              txtColor={stxColors.purple}
+              startDelay={100}
+              txt="const"
+            />
+          </div>
+          <div className="container-stx">
+            <Typewriter
+              txtColor={stxColors.lightBlue}
+              startDelay={800}
+              txt="Jake ="
+            />
+          </div>
+          <div className="container-stx">
+            <Typewriter
+              txtColor={stxColors.yellow}
+              startDelay={1500}
+              txt="()"
+            />
+          </div>
+          <div className="container-stx">
+            <Typewriter
+              txtColor={stxColors.purple}
+              startDelay={1800}
+              txt="=>"
+            />
+          </div>
 
-        <div className="stx-indent">
-          <Typewriter
-            txtColor={stxColors.lightYellow}
-            startDelay={3600}
-            txt="{"
-          />
-        </div>
+          <div className="container-stx stx-indent-1">
+            <Typewriter txtColor={stxColors.gold} startDelay={2100} txt="{" />
+          </div>
+        </StyledCodeLine>
 
-        {/* <TypeWriterEffect
-          textStyle={{
-            fontFamily: "Red Hat Display",
-            color: "#3F3D56",
-            fontWeight: 500,
-            fontSize: "1.5em",
-          }}
-          startDelay={10000}
-          cursorColor="#3F3D56"
-          multiText={[
-            "Front end developer",
-            "it consist of two types...",
-            "Single text display and multi text display",
-            "Fonts can be customized.",
-            "The type speed can be customized as well",
-          ]}
-          multiTextDelay={1000}
-          typeSpeed={30}
-        /> */}
-      </div>
+        <StyledCodeLine className="line-indent-1">
+          <div>
+            <Typewriter
+              txtColor={stxColors.purple}
+              startDelay={2300}
+              txt="return"
+            />
+          </div>
+
+          <div className="container-stx">
+            <Typewriter txtColor={stxColors.yellow} startDelay={3000} txt="(" />
+          </div>
+        </StyledCodeLine>
+
+        <StyledCodeLine className="line-indent-2 multi-line">
+          <Typewriter
+            multi={true}
+            txtColor={stxColors.softYellow}
+            startDelay={4000}
+          />
+        </StyledCodeLine>
+
+        <StyledCodeLine className="line-indent-1">
+          <Typewriter txtColor={stxColors.yellow} startDelay={3200} txt=");" />
+        </StyledCodeLine>
+
+        <StyledCodeLine>
+          <Typewriter txtColor={stxColors.gold} startDelay={3400} txt="};" />
+        </StyledCodeLine>
+
+        <button>My Work</button>
+      </StyledCodeContainer>
+
+      <StyledSkills>skills</StyledSkills>
     </StyledHome>
   );
 };

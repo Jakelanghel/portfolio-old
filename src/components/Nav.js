@@ -1,8 +1,10 @@
 import React from "react";
-import { StyledNav } from "./styled/Nav.Styled";
 import { NavLink } from "react-router-dom";
-import { Context } from "../Context";
+
 import images from "../constants/images";
+import { Context } from "../Context";
+
+import { StyledNav } from "./styled/Nav.Styled";
 
 const Nav = () => {
   const { toggleClass, toggleNav, mobileMenuClass } = React.useContext(Context);
@@ -73,7 +75,7 @@ const Nav = () => {
             <img
               src={images.gitHubIcon}
               alt="link to my github"
-              className="nav-icon filter-accent"
+              className="nav-icon filter-gray"
             />
           </a>
 
@@ -81,7 +83,7 @@ const Nav = () => {
             <img
               src={images.linkedInIcon}
               alt="link to my linkedIn"
-              className="nav-icon filter-accent"
+              className="nav-icon filter-gray"
             />
           </a>
         </div>

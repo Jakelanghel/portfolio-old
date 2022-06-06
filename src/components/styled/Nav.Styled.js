@@ -25,7 +25,7 @@ export const StyledNav = styled.nav`
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     position: absolute;
     top: -100%;
     left: 0;
@@ -35,6 +35,7 @@ export const StyledNav = styled.nav`
     padding-bottom: 0;
     text-align: center;
     transition: transform 250ms ease-in-out;
+    z-index: 100;
   }
 
   .menu-open {
@@ -49,7 +50,7 @@ export const StyledNav = styled.nav`
     text-decoration: none;
     letter-spacing: 3px;
     color: var(--dark-accent);
-    padding: 2rem 4rem;
+    padding: 1.5rem 4rem;
     display: flex;
     justify-content: flex-start;
     margin: 0 auto;
@@ -86,7 +87,7 @@ export const StyledNav = styled.nav`
   .container-icons {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
     margin-top: auto;
   }
 
