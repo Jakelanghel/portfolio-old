@@ -27,7 +27,7 @@ const Nav = () => {
           className={({ isActive }) =>
             isActive ? "active link" : "link non-active"
           }
-          to="/"
+          to="/my_portfolio"
           onClick={toggleNav}
         >
           Home

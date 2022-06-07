@@ -34,7 +34,6 @@ export const StyledHome = styled.main`
     border: solid 3px var(--dark-accent);
     border-radius: 10px;
     padding: 1rem 2rem;
-    margin-top: 5rem;
     align-self: center;
   }
 `;

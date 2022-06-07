@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "../components/Typewriter";
+import { motion } from "framer-motion";
 
 import { StyledHome } from "../components/styled/styled_pages/Home.Styled";
 import { StyledCodeContainer } from "../components/styled/Containers/CodeContainer.Styled";
@@ -23,36 +24,24 @@ const Home = () => {
       <StyledCodeContainer>
         <StyledCodeLine>
           <div className="container-stx">
-            <Typewriter
-              txtColor={stxColors.purple}
-              startDelay={100}
-              txt="const"
-            />
+            <Typewriter txtColor={stxColors.purple} txt="const" />
           </div>
           <div className="container-stx">
             <Typewriter
               txtColor={stxColors.lightBlue}
-              startDelay={800}
+              startDelay={300}
               txt="Jake ="
             />
           </div>
           <div className="container-stx">
-            <Typewriter
-              txtColor={stxColors.yellow}
-              startDelay={1500}
-              txt="()"
-            />
+            <Typewriter txtColor={stxColors.yellow} startDelay={650} txt="()" />
           </div>
           <div className="container-stx">
-            <Typewriter
-              txtColor={stxColors.purple}
-              startDelay={1800}
-              txt="=>"
-            />
+            <Typewriter txtColor={stxColors.purple} startDelay={800} txt="=>" />
           </div>
 
           <div className="container-stx stx-indent-1">
-            <Typewriter txtColor={stxColors.gold} startDelay={2100} txt="{" />
+            <Typewriter txtColor={stxColors.gold} startDelay={950} txt="{" />
           </div>
         </StyledCodeLine>
 
@@ -60,13 +49,13 @@ const Home = () => {
           <div>
             <Typewriter
               txtColor={stxColors.purple}
-              startDelay={2300}
+              startDelay={1050}
               txt="return"
             />
           </div>
 
           <div className="container-stx">
-            <Typewriter txtColor={stxColors.yellow} startDelay={3000} txt="(" />
+            <Typewriter txtColor={stxColors.yellow} startDelay={1400} txt="(" />
           </div>
         </StyledCodeLine>
 
@@ -74,20 +63,22 @@ const Home = () => {
           <Typewriter
             multi={true}
             txtColor={stxColors.softYellow}
-            startDelay={4000}
+            startDelay={2000}
           />
         </StyledCodeLine>
 
         <StyledCodeLine className="line-indent-1">
-          <Typewriter txtColor={stxColors.yellow} startDelay={3200} txt=");" />
+          <Typewriter txtColor={stxColors.yellow} startDelay={1500} txt=");" />
         </StyledCodeLine>
 
         <StyledCodeLine>
-          <Typewriter txtColor={stxColors.gold} startDelay={3400} txt="};" />
+          <Typewriter txtColor={stxColors.gold} startDelay={1650} txt="};" />
         </StyledCodeLine>
-
-        <button>My Work</button>
       </StyledCodeContainer>
+
+      <motion.button initial={{ y: -200 }} animate={{ y: 200 }}>
+        My Work
+      </motion.button>
 
       <StyledSkills>skills</StyledSkills>
     </StyledHome>

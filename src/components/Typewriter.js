@@ -19,8 +19,8 @@ const Typewriter = (props) => {
           "< Creative_Designs />",
           "< Beautiful_Websites />",
         ]}
-        multiTextDelay={1000}
-        hideCursorAfterText={true}
+        multiTextDelay={500}
+        hideCursorAfterText={false}
         typeSpeed={30}
       />
     );
@@ -37,7 +37,7 @@ const Typewriter = (props) => {
           startDelay={props.startDelay}
           cursorColor="transparent"
           text={props.txt}
-          typeSpeed={100}
+          typeSpeed={50}
           hideCursorAfterText={true}
           // scrollArea={myAppRef}
         />
