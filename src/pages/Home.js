@@ -76,11 +76,13 @@ const Home = () => {
         </StyledCodeLine>
       </StyledCodeContainer>
 
-      <motion.button initial={{ y: -200 }} animate={{ y: 200 }}>
+      <motion.button initial={{ y: -200 }} animate={{ y: 0 }}>
         My Work
       </motion.button>
 
-      <StyledSkills>skills</StyledSkills>
+      <StyledSkills>
+        <h2 className="skills">Skills</h2>
+      </StyledSkills>
     </StyledHome>
   );
 };

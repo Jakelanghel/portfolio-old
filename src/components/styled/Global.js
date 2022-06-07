@@ -20,6 +20,14 @@ const GlobalStyles = createGlobalStyle`
         --syntax-whiteish: #CEB06C;
     }
 
+    #root {
+        height: 100%;
+    }
+
+    html, body {
+        height: 100%;
+    }
+
     * {
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
