@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/my_portfolio/static/js/main.f54dde97.js",
+    "main.js": "/my_portfolio/static/js/main.98597696.js",
     "static/media/github-icon.svg": "/my_portfolio/static/media/github-icon.bdd05eb0a44d2eff01dd26eaa0b307bb.svg",
     "index.html": "/my_portfolio/index.html",
     "static/media/f-mentor-logo.svg": "/my_portfolio/static/media/f-mentor-logo.3aeb48a086b1087985ba645143a92420.svg",
     "static/media/linkedin-icon.svg": "/my_portfolio/static/media/linkedin-icon.f2f7d420f8ec14109e65abad03b5f32c.svg",
-    "main.f54dde97.js.map": "/my_portfolio/static/js/main.f54dde97.js.map"
+    "main.98597696.js.map": "/my_portfolio/static/js/main.98597696.js.map"
   },
   "entrypoints": [
-    "static/js/main.f54dde97.js"
+    "static/js/main.98597696.js"
   ]
 }
