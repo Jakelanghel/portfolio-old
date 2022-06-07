@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const StyledHome = styled.main`
-  padding: 3rem 1.5rem;
+  padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+  .container-hero {
+    display: flex;
+    flex-direction: column;
+  }
 
   .container-stx {
     margin-right: 0.5rem;
-  }
-
-  .stx-indent-1 {
-    margin-left: 1rem;
   }
 
   .line-indent-1 {
@@ -20,6 +20,16 @@ export const StyledHome = styled.main`
 
   .line-indent-2 {
     margin-left: 2rem;
+  }
+
+  @media screen and (min-width: 400px) {
+    .line-indent-1 {
+      margin-left: 2.5rem;
+    }
+
+    .line-indent-2 {
+      margin-left: 4rem;
+    }
   }
 
   button {

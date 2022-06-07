@@ -6,6 +6,9 @@ export const StyledCodeContainer = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin: 0 auto;
-  margin-bottom: 2.5rem;
+  margin: 3rem auto;
+
+  @media screen and (min-width: 400px) {
+    min-width: 345px;
+  }
 `;

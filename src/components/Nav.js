@@ -32,15 +32,7 @@ const Nav = () => {
         >
           Home
         </NavLink>
-        <NavLink
-          className={({ isActive }) =>
-            isActive ? "active link" : "link non-active"
-          }
-          to="/about"
-          onClick={toggleNav}
-        >
-          About
-        </NavLink>
+
         <NavLink
           className={({ isActive }) =>
             isActive ? "active link" : "link non-active"

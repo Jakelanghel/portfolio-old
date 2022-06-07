@@ -5,11 +5,13 @@ export const StyledNav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 2rem 3rem;
+  /* margin-bottom: 4rem; */
 
   .logo {
     font-size: 1.5rem;
     color: var(--dark-accent);
     letter-spacing: 5px;
+    margin: 0;
 
     span {
       color: blue;
@@ -105,7 +107,7 @@ export const StyledNav = styled.nav`
     position: absolute;
     right: 0;
     z-index: 1000;
-    padding: 1.5rem 3rem;
+    padding: 2rem 3rem;
   }
 
   .hamburger {

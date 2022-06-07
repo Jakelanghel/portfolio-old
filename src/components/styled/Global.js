@@ -4,20 +4,23 @@ const GlobalStyles = createGlobalStyle`
     :root {
         --primary-dark: #1D1D1D;
         --secondary-dark: #181818;
+        --white: #DBDBDB;
 
         --dark-accent: hsla(171, 98%, 51%, .7);
         --dark-accent: #E06C75;
         --dark-accent: #14A76C;
+        --dark-accent: #58AFEF;
         /* --dark-accent: #D19353; */
 
         --light-gray: #5c636c;
-        --white: #FBFBFB;
+        --whiteish: #abb2ad;;
 
         /* SYNTAX COLORS */
         --syntax-purple: #AD78DD;
         --syntax-blue: #58AFEF;
         --syntax-yellow: #E6B424;
         --syntax-whiteish: #CEB06C;
+        --syntax-red: #E0665A;
     }
 
     #root {
@@ -31,6 +34,14 @@ const GlobalStyles = createGlobalStyle`
     * {
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+        margin: 0;
+        padding: 0;
     }
 
     body {
