@@ -6,21 +6,11 @@ const GlobalStyles = createGlobalStyle`
         --secondary-dark: #181818;
         --white: #DBDBDB;
 
-        --dark-accent: hsla(171, 98%, 51%, .7);
-        --dark-accent: #E06C75;
-        --dark-accent: #14A76C;
         --dark-accent: #58AFEF;
-        /* --dark-accent: #D19353; */
 
         --light-gray: #5c636c;
         --whiteish: #abb2ad;;
 
-        /* SYNTAX COLORS */
-        --syntax-purple: #AD78DD;
-        --syntax-blue: #58AFEF;
-        --syntax-yellow: #E6B424;
-        --syntax-whiteish: #CEB06C;
-        --syntax-red: #E0665A;
     }
 
     #root {
@@ -56,8 +46,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     .filter-accent {
-        filter: brightness(0) saturate(100%) invert(64%) sepia(74%) 
-                saturate(6943%) hue-rotate(136deg) brightness(102%) contrast(84%);
+        filter: invert(55%) sepia(86%) saturate(463%) hue-rotate(176deg) brightness(102%) contrast(87%);
     }
     `;
 

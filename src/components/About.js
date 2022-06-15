@@ -11,7 +11,7 @@ const About = () => {
       <p className="about-body">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eos
         molestiae dolorum eveniet nobis fuga at, blanditiis in, quos quaerat
-        consequuntur odit quo aspernatur excepturi.
+        consequuntur odit .
       </p>
       <p className="stx stx-close">
         <span>&#60;</span>/p<span>&#62;</span>
@@ -19,5 +19,3 @@ const About = () => {
     </StyledAbout>
   );
 };
-
-export default About;

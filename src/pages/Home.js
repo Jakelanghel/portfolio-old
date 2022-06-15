@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "../components/Typewriter";
-import { motion } from "framer-motion";
+import { motion, transform } from "framer-motion";
 
 import { StyledHome } from "../components/styled/styled_pages/Home.Styled";
 import { StyledCodeContainer } from "../components/styled/Containers/CodeContainer.Styled";
@@ -93,12 +93,14 @@ const Home = () => {
           </StyledCodeLine>
         </StyledCodeContainer>
 
-        <motion.button initial={{ y: -200 }} animate={{ y: 0 }}>
+        <motion.button
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 7, duration: 1 }}
+        >
           My Work
         </motion.button>
       </div>
-
-      <About />
     </StyledHome>
   );
 };

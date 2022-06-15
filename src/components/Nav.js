@@ -37,11 +37,12 @@ const Nav = () => {
           className={({ isActive }) =>
             isActive ? "active link" : "link non-active"
           }
-          to="/skills"
+          to="/about"
           onClick={toggleNav}
         >
-          Skills
+          About
         </NavLink>
+
         <NavLink
           className={({ isActive }) =>
             isActive ? "active link" : "link non-active"
@@ -67,7 +68,7 @@ const Nav = () => {
             <img
               src={images.gitHubIcon}
               alt="link to my github"
-              className="nav-icon filter-gray"
+              className="nav-icon filter-accent"
             />
           </a>
 
@@ -75,7 +76,7 @@ const Nav = () => {
             <img
               src={images.linkedInIcon}
               alt="link to my linkedIn"
-              className="nav-icon filter-gray"
+              className="nav-icon filter-accent"
             />
           </a>
         </div>

@@ -4,7 +4,7 @@ export const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 3rem;
+  padding: 2rem;
   /* margin-bottom: 4rem; */
 
   .logo {
@@ -107,7 +107,7 @@ export const StyledNav = styled.nav`
     position: absolute;
     right: 0;
     z-index: 1000;
-    padding: 2rem 3rem;
+    padding: 2rem;
   }
 
   .hamburger {
