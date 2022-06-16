@@ -6,7 +6,7 @@ export const StyledFooter = styled.footer`
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
-  margin-top: auto;
+  margin-top: 100%;
   z-index: 1;
 
   a {

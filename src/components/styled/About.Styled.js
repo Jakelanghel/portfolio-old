@@ -6,12 +6,15 @@ export const StyledAbout = styled.section`
   padding: 2rem 1.5rem;
   position: relative;
   margin-bottom: 3rem;
+  height: 100%;
 
   .container-about-copy {
-    margin-bottom: 3rem;
+    /* height: 100%; */
+    text-align: center;
   }
 
   h2 {
+    text-align: left;
     font-size: 3rem;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -23,26 +26,14 @@ export const StyledAbout = styled.section`
     font-size: 1.25rem;
     font-weight: 300;
     text-align: left;
-    line-height: 2.25rem;
+    line-height: 2rem;
     letter-spacing: 1px;
     color: var(--whiteish);
     margin-bottom: 1.5rem;
   }
 
-  .stx {
-    font-size: 1.25rem;
-    color: var(--syntax-red);
-
-    span {
-      color: var(--light-gray);
-      margin: 0;
-    }
-  }
-
-  .stx-open {
-    text-align: left;
-  }
-  .stx-close {
-    text-align: left;
+  .arrow-icon {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 `;
