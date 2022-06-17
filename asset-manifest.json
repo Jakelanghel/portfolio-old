@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.js": "/my_portfolio/static/js/main.17315d3d.js",
+    "main.js": "/my_portfolio/static/js/main.7b193364.js",
+    "static/media/api-svgrepo-com.svg": "/my_portfolio/static/media/api-svgrepo-com.7cd6057b07c53c68b057aa2b46acc055.svg",
+    "static/media/linux.svg": "/my_portfolio/static/media/linux.9d07905d22304c322f4e23312f8eac3b.svg",
+    "static/media/sass.svg": "/my_portfolio/static/media/sass.7a29446e6967b6d7bfef7c414e5e29ad.svg",
+    "static/media/react.svg": "/my_portfolio/static/media/react.b9ee6e1d0ee75ee94813aabb411b463d.svg",
     "static/media/github-icon.svg": "/my_portfolio/static/media/github-icon.bdd05eb0a44d2eff01dd26eaa0b307bb.svg",
+    "static/media/node.svg": "/my_portfolio/static/media/node.eddef84b0e3ce6544626a1466347372b.svg",
+    "static/media/git.svg": "/my_portfolio/static/media/git.94b939c1e176bfebd79b1c87dbff0abb.svg",
+    "static/media/js.svg": "/my_portfolio/static/media/js.5629ee813a4c4b9f3e77281a8505e66a.svg",
     "index.html": "/my_portfolio/index.html",
     "static/media/f-mentor-logo.svg": "/my_portfolio/static/media/f-mentor-logo.3aeb48a086b1087985ba645143a92420.svg",
     "static/media/linkedin-icon.svg": "/my_portfolio/static/media/linkedin-icon.f2f7d420f8ec14109e65abad03b5f32c.svg",
-    "main.17315d3d.js.map": "/my_portfolio/static/js/main.17315d3d.js.map"
+    "static/media/css3.svg": "/my_portfolio/static/media/css3.48fde97df5ef68b54506ffb154905c4f.svg",
+    "static/media/html5.svg": "/my_portfolio/static/media/html5.280fcec471ee0f3842bcb8ff7c9bbf23.svg",
+    "static/media/windows.svg": "/my_portfolio/static/media/windows.01897b4ff82ef482c7b2d42ae42606b8.svg",
+    "main.7b193364.js.map": "/my_portfolio/static/js/main.7b193364.js.map"
   },
   "entrypoints": [
-    "static/js/main.17315d3d.js"
+    "static/js/main.7b193364.js"
   ]
 }
