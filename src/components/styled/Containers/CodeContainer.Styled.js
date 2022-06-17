@@ -7,6 +7,7 @@ export const StyledCodeContainer = styled.div`
   flex-direction: column;
   text-align: left;
   margin: 3rem auto;
+  margin-bottom: 5rem;
 
   @media screen and (min-width: 400px) {
     min-width: 345px;

@@ -20,7 +20,8 @@ function ArrowIcon() {
           pathLength: 1,
         }}
         transition={{
-          duration: 3,
+          delay: 1,
+          duration: 2,
           ease: "easeInOut",
         }}
         stroke="var(--dark-accent)"
