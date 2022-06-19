@@ -4,6 +4,7 @@ export const StyledHome = styled.main`
   padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
+  height: 100%;
 
   .container-hero {
     display: flex;
