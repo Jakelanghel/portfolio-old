@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/my_portfolio/static/js/main.7b193364.js",
+    "main.js": "/my_portfolio/static/js/main.60d0eed0.js",
     "static/media/api-svgrepo-com.svg": "/my_portfolio/static/media/api-svgrepo-com.7cd6057b07c53c68b057aa2b46acc055.svg",
     "static/media/linux.svg": "/my_portfolio/static/media/linux.9d07905d22304c322f4e23312f8eac3b.svg",
     "static/media/sass.svg": "/my_portfolio/static/media/sass.7a29446e6967b6d7bfef7c414e5e29ad.svg",
@@ -15,9 +15,9 @@
     "static/media/css3.svg": "/my_portfolio/static/media/css3.48fde97df5ef68b54506ffb154905c4f.svg",
     "static/media/html5.svg": "/my_portfolio/static/media/html5.280fcec471ee0f3842bcb8ff7c9bbf23.svg",
     "static/media/windows.svg": "/my_portfolio/static/media/windows.01897b4ff82ef482c7b2d42ae42606b8.svg",
-    "main.7b193364.js.map": "/my_portfolio/static/js/main.7b193364.js.map"
+    "main.60d0eed0.js.map": "/my_portfolio/static/js/main.60d0eed0.js.map"
   },
   "entrypoints": [
-    "static/js/main.7b193364.js"
+    "static/js/main.60d0eed0.js"
   ]
 }
