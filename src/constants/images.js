@@ -11,6 +11,7 @@ import reactIcon from "../assets/react.svg";
 import nodeIcon from "../assets/node.svg";
 import sassIcon from "../assets/sass.svg";
 import windowsIcon from "../assets/windows.svg";
+import f_mentorEcommerce from "../assets/f-mentor-ecommerce-site.png";
 
 const images = {
   gitHubIcon,
@@ -26,6 +27,7 @@ const images = {
   nodeIcon,
   sassIcon,
   windowsIcon,
+  f_mentorEcommerce,
 };
 
 export default images;
