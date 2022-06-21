@@ -12,6 +12,13 @@ import nodeIcon from "../assets/node.svg";
 import sassIcon from "../assets/sass.svg";
 import windowsIcon from "../assets/windows.svg";
 import f_mentorEcommerce from "../assets/f-mentor-ecommerce-site.png";
+import quizApp from "../assets/quiz_app.png";
+import ipTracker from "../assets/ip_tracker.png";
+import insureLandingPage from "../assets/insure_landingpage.png";
+import urlShortener from "../assets/url_shortner.png";
+import blogLandingPage from "../assets/blog_landing.png";
+import pricingComponent from "../assets/pricing_component.png";
+import tipCal from "../assets/tip_cal.png";
 
 const images = {
   gitHubIcon,
@@ -28,6 +35,13 @@ const images = {
   sassIcon,
   windowsIcon,
   f_mentorEcommerce,
+  quizApp,
+  ipTracker,
+  insureLandingPage,
+  urlShortener,
+  blogLandingPage,
+  pricingComponent,
+  tipCal,
 };
 
 export default images;

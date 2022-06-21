@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const StyledAbout = styled.section`
   width: 100%;
   text-align: left;
-  padding: 2rem;
+  padding: 1rem 2rem;
   position: relative;
   margin-bottom: 3rem;
 
   .container-about-copy {
-    height: 100vh;
+    height: 85vh;
   }
 
   h2 {
@@ -38,7 +38,7 @@ export const StyledAbout = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 3.5rem;
   }
 
   .arrow-icon {

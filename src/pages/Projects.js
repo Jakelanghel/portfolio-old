@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import { StyledProjects } from "../components/styled/styled_pages/Projects.Styled";
 import images from "../constants/images";
+import ProjectCard from "../components/ProjectCard";
+import { projectData } from "../projectData";
 
 const Projects = () => {
   const [active, setActive] = useState("all");
@@ -25,42 +27,34 @@ const Projects = () => {
     );
   });
 
+  const allProjects = projectData.map((proj) => (
+    <ProjectCard img={proj.img} name={proj.name} tech={proj.tech} />
+  ));
+
+  const ReactProjects = projectData.map((proj) => {
+    if (proj.tech === "React") {
+      return <ProjectCard img={proj.img} name={proj.name} tech={proj.tech} />;
+    }
+  });
+
+  const vanillaProjects = projectData.map((proj) => {
+    if (proj.tech === "HTML, CSS, JS") {
+      return <ProjectCard img={proj.img} name={proj.name} tech={proj.tech} />;
+    }
+  });
+
   return (
     <StyledProjects>
       <div className="container-filter">{filterBtns}</div>
       {/* {active === "react" ? "REACT" : active === "vanilla" ? "vanilla" : "ALL"} */}
 
-      <a
-        href="https://jakelanghel.github.io/ecommerce-product-page/"
-        className="project-link"
-      >
-        <div className="container-projects">
-          <div className="container-project">
-            <img
-              src={images.f_mentorEcommerce}
-              alt="ecommerce product page"
-              className="project-img"
-            />
-            <h2>Ecommerce product page</h2>
-            <p>React - Styled components</p>
-
-            <div className="container-links">
-              <a
-                className="repo-link"
-                href="https://jakelanghel.github.io/ecommerce-product-page/"
-              >
-                Live Site
-              </a>
-              <a
-                className="repo-link"
-                href="https://github.com/Jakelanghel/ecommerce-product-page"
-              >
-                Github Repo
-              </a>
-            </div>
-          </div>
-        </div>
-      </a>
+      <div className="container-projects">
+        {active === "react"
+          ? ReactProjects
+          : active === "vanilla"
+          ? vanillaProjects
+          : allProjects}
+      </div>
     </StyledProjects>
   );
 };

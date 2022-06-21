@@ -6,6 +6,7 @@ export const StyledSkills = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 3rem 0;
 
   h2 {
     margin-bottom: 3rem;
