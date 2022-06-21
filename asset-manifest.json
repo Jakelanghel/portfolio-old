@@ -1,7 +1,14 @@
 {
   "files": {
-    "main.js": "/my_portfolio/static/js/main.98db740b.js",
+    "main.js": "/my_portfolio/static/js/main.b122d7fa.js",
+    "static/media/ip_tracker.png": "/my_portfolio/static/media/ip_tracker.9e67e07f0695ed83bbab.png",
+    "static/media/quiz_app.png": "/my_portfolio/static/media/quiz_app.ee15cc6cfa750f620cb9.png",
+    "static/media/insure_landingpage.png": "/my_portfolio/static/media/insure_landingpage.86dbc7f1af45747cb90d.png",
     "static/media/f-mentor-ecommerce-site.png": "/my_portfolio/static/media/f-mentor-ecommerce-site.771defade5c16d824923.png",
+    "static/media/blog_landing.png": "/my_portfolio/static/media/blog_landing.e7feca96810c15a570c2.png",
+    "static/media/url_shortner.png": "/my_portfolio/static/media/url_shortner.a91461dd070b65898ff5.png",
+    "static/media/pricing_component.png": "/my_portfolio/static/media/pricing_component.318cf50778e6ea102fcc.png",
+    "static/media/tip_cal.png": "/my_portfolio/static/media/tip_cal.3daee05492e9638558de.png",
     "static/media/api-svgrepo-com.svg": "/my_portfolio/static/media/api-svgrepo-com.7cd6057b07c53c68b057aa2b46acc055.svg",
     "static/media/linux.svg": "/my_portfolio/static/media/linux.9d07905d22304c322f4e23312f8eac3b.svg",
     "static/media/sass.svg": "/my_portfolio/static/media/sass.7a29446e6967b6d7bfef7c414e5e29ad.svg",
@@ -16,9 +23,9 @@
     "static/media/css3.svg": "/my_portfolio/static/media/css3.48fde97df5ef68b54506ffb154905c4f.svg",
     "static/media/html5.svg": "/my_portfolio/static/media/html5.280fcec471ee0f3842bcb8ff7c9bbf23.svg",
     "static/media/windows.svg": "/my_portfolio/static/media/windows.01897b4ff82ef482c7b2d42ae42606b8.svg",
-    "main.98db740b.js.map": "/my_portfolio/static/js/main.98db740b.js.map"
+    "main.b122d7fa.js.map": "/my_portfolio/static/js/main.b122d7fa.js.map"
   },
   "entrypoints": [
-    "static/js/main.98db740b.js"
+    "static/js/main.b122d7fa.js"
   ]
 }
