@@ -12,6 +12,7 @@ export const StyledHome = styled.main`
   }
 
   .container-stx {
+    font-size: 1rem;
     margin-right: 0.5rem;
   }
 
@@ -21,16 +22,6 @@ export const StyledHome = styled.main`
 
   .line-indent-2 {
     margin-left: 2rem;
-  }
-
-  @media screen and (min-width: 400px) {
-    .line-indent-1 {
-      margin-left: 2.5rem;
-    }
-
-    .line-indent-2 {
-      margin-left: 4rem;
-    }
   }
 
   button {
@@ -46,5 +37,31 @@ export const StyledHome = styled.main`
     border-radius: 10px;
     padding: 1rem 2rem;
     align-self: center;
+  }
+
+  @media screen and (min-width: 400px) {
+    .line-indent-1 {
+      margin-left: 2.5rem;
+    }
+
+    .line-indent-2 {
+      margin-left: 4rem;
+    }
+  }
+
+  @media screen and (min-width: 400px) {
+    .line-indent-1 {
+      margin-left: 2.5rem;
+    }
+
+    .line-indent-2 {
+      margin-left: 4rem;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .container-stx {
+      font-size: 1.25rem;
+    }
   }
 `;

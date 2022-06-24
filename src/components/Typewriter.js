@@ -10,7 +10,7 @@ const Typewriter = (props) => {
           fontFamily: "IBM Plex Mono",
           color: props.txtColor,
           fontWeight: 700,
-          fontSize: "1.2rem",
+          fontSize: "1.2em",
         }}
         startDelay={props.startDelay}
         cursorColor="transparent"
@@ -32,7 +32,7 @@ const Typewriter = (props) => {
             fontFamily: "IBM Plex Mono",
             display: "flex",
             color: props.txtColor,
-            fontSize: "1.25rem",
+            fontSize: "1.25em",
           }}
           startDelay={props.startDelay}
           cursorColor="transparent"

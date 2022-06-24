@@ -28,19 +28,46 @@ const Projects = () => {
   });
 
   const allProjects = projectData.map((proj) => (
-    <ProjectCard img={proj.img} name={proj.name} tech={proj.tech} />
+    <ProjectCard
+      key={proj.name}
+      img={proj.img}
+      name={proj.name}
+      tech={proj.tech}
+      repoLink={proj.repo}
+      liveSite={proj.liveSite}
+    />
   ));
 
-  const ReactProjects = projectData.map((proj) => {
-    if (proj.tech === "React") {
-      return <ProjectCard img={proj.img} name={proj.name} tech={proj.tech} />;
-    }
+  const ReactProjects = projectData.filter((proj) => proj.tech === "React");
+
+  const ReactProjCards = ReactProjects.filter((proj) => {
+    return (
+      <ProjectCard
+        key={proj.name}
+        img={proj.img}
+        name={proj.name}
+        tech={proj.tech}
+        repo={proj.repo}
+        liveSite={proj.liveSite}
+      />
+    );
   });
 
-  const vanillaProjects = projectData.map((proj) => {
-    if (proj.tech === "HTML, CSS, JS") {
-      return <ProjectCard img={proj.img} name={proj.name} tech={proj.tech} />;
-    }
+  const vanillaProjects = projectData.filter((proj) => {
+    // if (proj.tech === "HTML, CSS, JS") {
+    return (
+      proj.tech === "HTML, CSS, JS" && (
+        <ProjectCard
+          key={proj.name}
+          img={proj.img}
+          name={proj.name}
+          tech={proj.tech}
+          repo={proj.repo}
+          liveSite={proj.liveSite}
+        />
+      )
+    );
+    // }
   });
 
   return (
@@ -50,7 +77,7 @@ const Projects = () => {
 
       <div className="container-projects">
         {active === "react"
-          ? ReactProjects
+          ? ReactProjCards
           : active === "vanilla"
           ? vanillaProjects
           : allProjects}

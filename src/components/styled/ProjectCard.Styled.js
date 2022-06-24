@@ -59,4 +59,8 @@ export const StyledProjectCard = styled.div`
     margin-top: 1rem;
     color: white;
   }
+
+  .repo-link:hover {
+    cursor: pointer;
+  }
 `;

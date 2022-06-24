@@ -5,10 +5,7 @@ import images from "../constants/images";
 const ProjectCard = (props) => {
   return (
     <StyledProjectCard>
-      <a
-        href="https://jakelanghel.github.io/ecommerce-product-page/"
-        className="project-link"
-      >
+      <a href={props.liveSite} className="project-link">
         <img src={props.img} alt={props.name} className="project-img" />
       </a>
 
@@ -16,16 +13,10 @@ const ProjectCard = (props) => {
       <p>{props.tech}</p>
 
       <div className="container-links">
-        <a
-          className="repo-link"
-          href="https://jakelanghel.github.io/ecommerce-product-page/"
-        >
+        <a className="repo-link" href={props.liveSite}>
           Live Site
         </a>
-        <a
-          className="repo-link"
-          href="https://github.com/Jakelanghel/ecommerce-product-page"
-        >
+        <a className="repo-link" href={props.repoLink}>
           Github Repo
         </a>
       </div>

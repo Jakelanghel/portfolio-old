@@ -61,23 +61,33 @@ const Home = () => {
           </StyledCodeLine>
 
           <StyledCodeLine className="line-indent-2 multi-line">
-            <Typewriter
-              multi={true}
-              txtColor="var(--stx-softYellow)"
-              startDelay={2000}
-            />
+            <div className="container-stx">
+              <Typewriter
+                multi={true}
+                txtColor="var(--stx-softYellow)"
+                startDelay={2000}
+              />
+            </div>
           </StyledCodeLine>
 
           <StyledCodeLine className="line-indent-1">
-            <Typewriter
-              txtColor="var(--stx-yellow)"
-              startDelay={1500}
-              txt=");"
-            />
+            <div className="container-stx">
+              <Typewriter
+                txtColor="var(--stx-yellow)"
+                startDelay={1500}
+                txt=");"
+              />
+            </div>
           </StyledCodeLine>
 
           <StyledCodeLine>
-            <Typewriter txtColor="var(--stx-gold)" startDelay={1650} txt="};" />
+            <div className="container-stx">
+              <Typewriter
+                txtColor="var(--stx-gold)"
+                startDelay={1650}
+                txt="};"
+              />
+            </div>
           </StyledCodeLine>
         </StyledCodeContainer>
 
