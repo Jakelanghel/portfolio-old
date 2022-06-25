@@ -6,7 +6,7 @@ export const StyledSkills = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem 0;
+  margin: 7rem 0;
 
   h2 {
     margin-bottom: 3rem;
@@ -21,6 +21,8 @@ export const StyledSkills = styled.section`
 
   .container-flex {
     width: 80%;
+    min-width: 350px;
+    max-width: 600px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -39,6 +41,27 @@ export const StyledSkills = styled.section`
   }
 
   .skill-img {
-    width: 60%;
+    width: 70%;
+    max-width: 75px;
+  }
+
+  @media screen and (min-width: 900px) {
+    margin: 0;
+
+    h3 {
+      min-width: 100px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container-skill {
+      width: 25%;
+      margin-bottom: 2.5rem;
+      border-radius: 10%;
+    }
+
+    .skill-img {
+      max-width: 50px;
+    }
   }
 `;

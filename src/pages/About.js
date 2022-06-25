@@ -51,7 +51,7 @@ const About = () => {
         </div>
       </div>
 
-      <motion.div>
+      <motion.div className="skills-container">
         <Skills />
       </motion.div>
     </StyledAbout>

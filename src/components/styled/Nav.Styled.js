@@ -4,7 +4,7 @@ export const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding-bottom: 3rem;
 
   .logo {
     font-size: 1.5rem;
@@ -162,7 +162,6 @@ export const StyledNav = styled.nav`
   }
 
   @media screen and (min-width: 900px) {
-    padding: 2rem 3rem;
     .container-nav-links {
       width: initial;
       height: initial;

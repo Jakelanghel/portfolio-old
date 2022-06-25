@@ -15,7 +15,7 @@ function App() {
   return (
     <StyledAppContainer>
       <GlobalStyles />
-      <Nav />
+      <Nav className="page-padding" />
 
       <Routes>
         <Route exact path="/my_portfolio" element={<Home />} />

@@ -57,9 +57,18 @@ const GlobalStyles = createGlobalStyle`
 
     body {
         margin: 0;
-        padding: 0;
+        padding: 2rem;
+        padding-bottom: 0;
         background-color: var(--secondary-dark);
     }
+
+    @media screen and (min-width: 900px) {
+        body {
+            padding: 2.5rem 4rem;
+            padding-bottom: 0;
+
+        }
+  }
 
     .filter-white {
         filter: invert(100%) sepia(0%) saturate(3787%) hue-rotate(139deg) brightness(112%) contrast(90%);

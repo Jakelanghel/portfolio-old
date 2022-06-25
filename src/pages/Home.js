@@ -19,7 +19,14 @@ const Home = () => {
               <Typewriter
                 txtColor="var(--stx-lightBlue)"
                 startDelay={300}
-                txt="Jake ="
+                txt="Jake"
+              />
+            </div>
+            <div className="container-stx">
+              <Typewriter
+                txtColor="var(--stx-lightBlue)"
+                startDelay={550}
+                txt="="
               />
             </div>
             <div className="container-stx">

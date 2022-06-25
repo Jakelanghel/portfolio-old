@@ -1,5 +1,11 @@
 import React from "react";
+import { StyledCodeContainer } from "./components/styled/Containers/CodeContainer.Styled";
 
-const jake = () => {
-  return <Beautiful_Websites />;
+const Jake = () => {
+  return (
+    <JakeLanghel/>
+    <LakeJahejel/>
+  )
 };
+
+
