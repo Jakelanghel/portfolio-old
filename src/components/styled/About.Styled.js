@@ -3,12 +3,11 @@ import styled from "styled-components";
 export const StyledAbout = styled.section`
   width: 100%;
   text-align: left;
-  padding: 0 2rem;
   position: relative;
   margin-bottom: 3rem;
 
   h2 {
-    max-width: 400px;
+    max-width: 350px;
     text-align: left;
     font-size: 3rem;
     letter-spacing: 2px;
@@ -19,10 +18,9 @@ export const StyledAbout = styled.section`
   }
 
   .about-body {
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 300;
     text-align: left;
     line-height: 2rem;
@@ -38,17 +36,6 @@ export const StyledAbout = styled.section`
     margin-top: 3.5rem;
   }
 
-  @media screen and (min-width: 480px) {
-    margin-top: 3rem;
-  }
-
-  @media screen and (min-width: 500px) {
-    margin-top: 4rem;
-  }
-  @media screen and (min-width: 500px) {
-    margin-top: 4rem;
-  }
-
   @media screen and (min-width: 900px) {
     display: flex;
     justify-content: space-around;
@@ -61,7 +48,9 @@ export const StyledAbout = styled.section`
     }
 
     .about-body {
+      font-size: 1.5rem;
       max-width: 500px;
+      min-width: 400px;
     }
 
     .container-arrow {

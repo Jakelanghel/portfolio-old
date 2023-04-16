@@ -21,8 +21,6 @@ export const StyledSkills = styled.section`
 
   .container-flex {
     width: 80%;
-    min-width: 350px;
-    max-width: 600px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -52,6 +50,11 @@ export const StyledSkills = styled.section`
       min-width: 100px;
       display: flex;
       justify-content: center;
+    }
+
+    .container-flex {
+      min-width: 350px;
+      max-width: 600px;
     }
 
     .container-skill {
